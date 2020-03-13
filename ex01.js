@@ -1,4 +1,4 @@
-var number=2
+var number = 2;
 console.log (typeof number);
 
 var string = 'Salut ma poule';
