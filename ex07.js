@@ -5,6 +5,16 @@
 //const prenoms = ["Thomas", "Sarah", "Alexandre","Alexandre",, "Mélodie", "Jonathan", "Laure"];
 
 const prenoms = ["Thomas", "Sarah", "Alexandre","Alexandre", "Mélodie", "Jonathan", "Laure"];
-
+function removeDuplicates(prenoms) {
+  let unique = {};
+  prenoms.forEach(function(i) {
+    if(!unique[i]) {
+      unique[i] = true;
+    }
+  });
+  return Object.keys(unique);
+}
+uniquePrenoms = removeDuplicates(prenoms)
+console.log(uniquePrenoms.join());
 
 
