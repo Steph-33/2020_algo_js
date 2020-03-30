@@ -32,7 +32,7 @@ console.log(myName);
 function concat(string1,string2){
     return string1+string2;
 }
-console.log(concat("Steph et ", "Alice"))
+console.log(concat("Steph et ","Alice"))
 
 // Faire une fonction qui prend en paramètre deux nombres. 
 // La fonction doit retourner : 
