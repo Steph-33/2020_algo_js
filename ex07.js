@@ -4,8 +4,9 @@
 //3. Afficher le résultat dans la console!
 //const prenoms = ["Thomas", "Sarah", "Alexandre","Alexandre",, "Mélodie", "Jonathan", "Laure"];
 
-// Première solution
+
 const prenoms = ["Thomas", "Sarah", "Alexandre","Alexandre", "Mélodie", "Jonathan", "Laure"];
+// Première solution
 function removeDuplicates(prenoms) {
   let unique = {};
   prenoms.forEach(function(i) {
@@ -20,7 +21,6 @@ console.log(uniquePrenoms.join());
 
 
 // Deuxième solution
-// const prenoms = ["Thomas", "Sarah", "Alexandre","Alexandre", "Mélodie", "Jonathan", "Laure"];
 for (let i = 0; i < prenoms.length; i++) {
     for (let j = 0; j < prenoms.length; j++) {
         if(prenoms[i] == prenoms[j] && i != j){
